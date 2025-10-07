@@ -6,10 +6,13 @@
 1. 建立虛擬環境：
    conda create -n dl python=3.12
 
-2. 安裝 Python 套件：
+2. 進入環境：
+   conda activate dl
+
+3. 安裝 Python 套件：
    pip install -r requirements.txt
 
-3. 安裝 FFmpeg：
+4. 安裝 FFmpeg：
    Windows: 下載 https://ffmpeg.org/download.html
    macOS: brew install ffmpeg
    Linux: sudo apt-get install ffmpeg
@@ -38,3 +41,5 @@
        "001": ["artist1", "artist2", "artist3"],
        "002": ["artist4", "artist5", "artist6"]
      }
+
+5. 根據測試需求修改預測結果檔案名稱
