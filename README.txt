@@ -38,3 +38,4 @@
        "001": ["artist1", "artist2", "artist3"],
        "002": ["artist4", "artist5", "artist6"]
      }
+A
